@@ -735,7 +735,7 @@
           this.toggleMenu();
         } else {
           if (this.options[this.hoverIndex]) {
-            this.handleOptionSelect(this.options[this.hoverIndex]);
+            this.handleOptionSelect(this.options[this.hoverIndex],true);
           }
         }
       },
